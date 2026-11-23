@@ -1,0 +1,359 @@
+{
+  "itens": [
+    {
+      "id": "docx",
+      "tipo": "skill",
+      "nome": "Documentos Word (docx)",
+      "descricao": "Cria, lê e edita documentos Word (.docx) e modelos (.dotx): sumário, cabeçalhos, números de página, comentários e alterações rastreadas.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/docx",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "tDPChNEMsowLUu8G+NjCKh+UprAMt6qH79Wrgk2pz0rvm5qRMkPgm87ra5FD+MQsxMMYBOCZc0TMf5iPVXrsAA=="
+    },
+    {
+      "id": "pdf",
+      "tipo": "skill",
+      "nome": "PDF",
+      "descricao": "Lê e extrai texto e tabelas de PDFs, junta, divide, gira páginas, preenche formulários, cria PDFs e faz OCR em documentos escaneados.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/pdf",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "uXcHSLdoly1cCuYT2lnfhKFDZNuOWk6SdY1UlEjsB1eR/MGGPqrabApZ3J0T13vPNn7nxbDz2peuYO1tcrkZAA=="
+    },
+    {
+      "id": "pptx",
+      "tipo": "skill",
+      "nome": "Apresentações (pptx)",
+      "descricao": "Cria e edita apresentações PowerPoint (.pptx/.potx): slides, modelos, notas do apresentador e comentários.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/pptx",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "D7f2oNWgWeNJ1dtelDgrL+Lpj9Geyw/6BfD6wca7Va4v1y+TjanBhvjw2eoizIuVAACSUZ0bqKiJSCCSGVM0DA=="
+    },
+    {
+      "id": "xlsx",
+      "tipo": "skill",
+      "nome": "Planilhas (xlsx)",
+      "descricao": "Abre, corrige e cria planilhas (.xlsx, .csv, .tsv): fórmulas, formatação, gráficos e limpeza de dados bagunçados.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/xlsx",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "vIfh5cP8n4QxK9GVcRa5UvaeQxikZdv9aZdKn5V2TS72C0nncOcqUzuayFk3Venzy/03l2+XNVJeZRzfg6czDQ=="
+    },
+    {
+      "id": "frontend-design",
+      "tipo": "skill",
+      "nome": "Design de interfaces",
+      "descricao": "Orienta o Claude a criar interfaces com direção visual própria: tipografia, composição e escolhas que fogem do visual padrão de template.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/frontend-design",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "Hl7Dga15aYuercxP1lcMA5cHUORIQM+iuXsGILSxKuAjRLJSbD4yG5hZz5sDnbdoGUSb2X+aPHcIWl2vDUcTBA=="
+    },
+    {
+      "id": "skill-creator",
+      "tipo": "skill",
+      "nome": "Criador de skills",
+      "descricao": "Ajuda a criar, melhorar e medir o desempenho de skills, inclusive otimizar a descrição para que ela dispare na hora certa.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/skill-creator",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "1rIExJgrbPJ3mOzUeaKkRWtsR7miJYXdbVDNcboiU+GdyWj0LDCWq2LBCjAT4FedI4lRmUYrGSuRxrnb8BH/CQ=="
+    },
+    {
+      "id": "claude-api",
+      "tipo": "skill",
+      "nome": "API do Claude",
+      "descricao": "Referência da API do Claude e do SDK da Anthropic: modelos, parâmetros, streaming, ferramentas, cache e migração de modelo.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/claude-api",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "m+3nkuEPi8QtfiFMcFPBVmbeblk9txq19uaHFDXouEUIW2gVMYUhRUAOFapnIzSaNxnKkcbp4yZm71mEHyDfAA=="
+    },
+    {
+      "id": "mcp-builder",
+      "tipo": "skill",
+      "nome": "Criador de servidores MCP",
+      "descricao": "Guia para criar servidores MCP de qualidade, que deixam o Claude usar serviços externos por meio de ferramentas bem desenhadas.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/mcp-builder",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "6+MzJp9uNsK+Exhuij36Mfj8fp1gwLZs1ikdw5BgU5CiLMwFioy3Uz4XyLqwOKGBnxq8Lvs5DMpROoP4Xj7NAA=="
+    },
+    {
+      "id": "webapp-testing",
+      "tipo": "skill",
+      "nome": "Teste de aplicativos web",
+      "descricao": "Testa aplicativos web locais com Playwright: verifica a interface, depura comportamento e captura telas.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/webapp-testing",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "JLuzgqfLKgCXON65snDFcI8oumqxDA3ZjWwKCwcbk/3c1414qJv0HG/jPUhLJrPyY80aOWiUJBOgmfLwk1vFBw=="
+    },
+    {
+      "id": "canvas-design",
+      "tipo": "skill",
+      "nome": "Arte e cartazes (canvas)",
+      "descricao": "Cria peças visuais em .png e .pdf, como cartazes e ilustrações, a partir de uma filosofia de design.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/canvas-design",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "5uSPYGzbhNCBybxestyeuunBOO6iUKy+TA35DCcrtp+d5P/EjSyvi9be9nJCN1I2gxGgZ57T5jHE85RBBs9ABQ=="
+    },
+    {
+      "id": "theme-factory",
+      "tipo": "skill",
+      "nome": "Fábrica de temas",
+      "descricao": "Aplica temas a slides, documentos, relatórios e páginas HTML, com 10 temas prontos de cores e fontes.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/theme-factory",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "hfsJaMVDL+YLBruse83s8O8b3y+hwPV23u+h+T4gyKusF0wFfM7G/gIFreKCThvnuJRjFth0wHS/PEx9vKBjDQ=="
+    },
+    {
+      "id": "brand-guidelines",
+      "tipo": "skill",
+      "nome": "Identidade visual da Anthropic",
+      "descricao": "Aplica as cores e a tipografia oficiais da Anthropic a qualquer material.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/brand-guidelines",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "2D2MbnlCSWIvSOjUhlyK1JZcO56OGGOkRCSjoQgPqul1HjSDRhpKRepOKzL9kPJ+PQN1gOgcOFW7Em4bxrSGBw=="
+    },
+    {
+      "id": "doc-coauthoring",
+      "tipo": "skill",
+      "nome": "Coautoria de documentos",
+      "descricao": "Conduz um fluxo estruturado para escrever documentação, propostas, especificações técnicas e documentos de decisão.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/doc-coauthoring",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "tOkFXrh9SUMAGvGzKwrxYmoBwsUMDYwRt9O7HJkXacvQX1Tsh97uUNrd/bjT8h9tZGRbDVaDDqinIsezr456DQ=="
+    },
+    {
+      "id": "internal-comms",
+      "tipo": "skill",
+      "nome": "Comunicação interna",
+      "descricao": "Ajuda a escrever comunicados internos nos formatos que a empresa costuma usar.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/internal-comms",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "BvKHVcoSCZl/7wIYyqjNb95F/qoD2D9yrszo0j2rhzwsIbD1xz9YCG77Yzia9h0w72bb5p9uORaYwuMIjafHAw=="
+    },
+    {
+      "id": "algorithmic-art",
+      "tipo": "skill",
+      "nome": "Arte algorítmica",
+      "descricao": "Cria arte com código em p5.js, com aleatoriedade controlada por semente e parâmetros interativos.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/algorithmic-art",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "GfqtHF1hzwABJ8jDT3IHmky/74AOORWIejc9T1A/5TzP6V/TjeA4ImmjWr8CdXTI/KFGttsu6N4PZsxtRTPpCA=="
+    },
+    {
+      "id": "slack-gif-creator",
+      "tipo": "skill",
+      "nome": "GIFs para Slack",
+      "descricao": "Cria GIFs animados otimizados para o Slack, com as restrições, a validação e os conceitos de animação.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/slack-gif-creator",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "Bcc5svxrUH5Ab8GNWvvVrNKAxjZa5qjCl3x3tFWRTLOAyHmR2sVGGeJr/dy9exZtuLko/ZlCWtOwIH6EGi9WAA=="
+    },
+    {
+      "id": "web-artifacts-builder",
+      "tipo": "skill",
+      "nome": "Artefatos web elaborados",
+      "descricao": "Conjunto de ferramentas para criar artefatos HTML de vários componentes, com React, Tailwind CSS e shadcn/ui.",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "caminho": "skills/web-artifacts-builder",
+      "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+      "assinatura": "z2yk/F2R0oLdIH+pfveaeXGANoFS6y5Q8c5KHkHXhT1DeIZwNyYev5FGgNh+RztyjaPyLJ2ZTUxTpXlwB1JuAw=="
+    },
+    {
+      "id": "plugin-code-review",
+      "tipo": "plugin",
+      "nome": "Revisão de código",
+      "descricao": "Revisão automática de pull requests com vários agentes especializados e pontuação de confiança.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "code-review",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "ob6WMkVV7u3Zl6J/hzFjrhc6NlvGF9+nmDCMHG21Lrj9dhH9goZxbSSQfoQ0X3+0ITrxW1BWoA1f/Jsv3flHAA=="
+    },
+    {
+      "id": "plugin-feature-dev",
+      "tipo": "plugin",
+      "nome": "Desenvolvimento de funcionalidades",
+      "descricao": "Fluxo completo para desenvolver uma funcionalidade, com agentes para explorar o código, projetar e revisar.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "feature-dev",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "YUwIJzFBV2uiFpsJVv+LtVoTKD+/8ptcXtgmvk2StQTDqsPJ2gGAMQW1XHTDxqKfvikxYIlLqyBTzz6MQpWzCA=="
+    },
+    {
+      "id": "plugin-commit-commands",
+      "tipo": "plugin",
+      "nome": "Comandos de commit",
+      "descricao": "Comandos para o fluxo do git: fazer commit, enviar e abrir pull request.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "commit-commands",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "gQS/hqqAiU3T8wKT1wqivqBbwj9nciyKkevhIU7rb4ykVsMkKnbEICyR2UtwP3JcF3tNl2GukPzo9DLiemRzCA=="
+    },
+    {
+      "id": "plugin-pr-review-toolkit",
+      "tipo": "plugin",
+      "nome": "Kit de revisão de PR",
+      "descricao": "Agentes que revisam pull requests por tema: comentários, testes, tratamento de erros e desenho de tipos.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "pr-review-toolkit",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "6M+2DiWU7+EsNrxwO10afXnPF2c+ndiH3F4a1bzkeNKLkqpZoV81+97wPfUq6qdFjLpcdRfcuLRAELm48yhJBQ=="
+    },
+    {
+      "id": "plugin-security-guidance",
+      "tipo": "plugin",
+      "nome": "Orientação de segurança",
+      "descricao": "Revisão de segurança do código gerado pelo Claude: alertas ao editar e revisão do diff ao terminar.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "security-guidance",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "FfrESoJBlg4qXU2f3HTozNMTuVQWXFpMN6JzlBoz6TrpLYGmSk4FoqgutIjofplXnQR3ssKUslGWDeTb5hofBQ=="
+    },
+    {
+      "id": "plugin-frontend-design",
+      "tipo": "plugin",
+      "nome": "Design de frontend (plugin)",
+      "descricao": "Cria interfaces com alta qualidade de design, distintivas e prontas para produção.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "frontend-design",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "2aGg2bXuhxCj0RJWBAJeMWx9R6/+IvDNFkyJpjoklAbcmznsqJ8gKJyCoalP3nMBnG5B4QMnBSeRQa3dRZKPDg=="
+    },
+    {
+      "id": "plugin-hookify",
+      "tipo": "plugin",
+      "nome": "Hookify",
+      "descricao": "Cria hooks personalizados para impedir comportamentos indesejados, a partir da análise da conversa.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "hookify",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "Q7SDmNtD70fNNSd8IAWszOHHzBNGCGlXPkTlltN8Au8noRhjw3+K6hRBpuTtzbOFgeL7Jm/JElTIY/G+NWBODg=="
+    },
+    {
+      "id": "plugin-plugin-dev",
+      "tipo": "plugin",
+      "nome": "Desenvolvimento de plugins",
+      "descricao": "Kit para criar plugins do Claude Code, com skills especialistas em cada parte.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "plugin-dev",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "Lre9Tgn0EMjhRwygkw6V2ZqC4XmjpZZrKdHWKvO97U1N/vrFeDp+lPhr1xNDx2puuFlLw9xj2za4lfxUG7ePBQ=="
+    },
+    {
+      "id": "plugin-agent-sdk-dev",
+      "tipo": "plugin",
+      "nome": "Desenvolvimento com o Agent SDK",
+      "descricao": "Kit para trabalhar com o Claude Agent SDK.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "agent-sdk-dev",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "+OOpuRxIYec/UbFSDOiQbCbExw2GtXR0zP3WIpYgOLNl4pwUnXyKuZrJ0cOuUHn9wPPqRgE1lH1ay8Efit2TDQ=="
+    },
+    {
+      "id": "plugin-explanatory-output-style",
+      "tipo": "plugin",
+      "nome": "Estilo explicativo",
+      "descricao": "Acrescenta explicações didáticas sobre as escolhas de implementação e os padrões do código.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "explanatory-output-style",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "5Av8dORFRYMRBBIJJwmCg1gWOLbIrs0dBRfobTyRXm5i9i7XP+RWoqj2PXlegPfnd94jT7qBD1+0jopA7Bg8AA=="
+    },
+    {
+      "id": "plugin-learning-output-style",
+      "tipo": "plugin",
+      "nome": "Estilo de aprendizado",
+      "descricao": "Modo de aprendizado interativo que pede contribuições de código nos pontos de decisão.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "learning-output-style",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "YIwaVqtzPgqRidS8LWxS81WpvAHAycj4BQF+LOv9Xs5CBoH58otyDSNrB+iCta0CBGR81ayt6bYUD8/kJRqvAg=="
+    },
+    {
+      "id": "plugin-ralph-loop",
+      "tipo": "plugin",
+      "nome": "Ralph Loop",
+      "descricao": "Laços iterativos em que o Claude trabalha na mesma tarefa até concluir.",
+      "repo": "anthropics/claude-code",
+      "marketplace": {
+        "nome": "claude-code-plugins",
+        "repo": "anthropics/claude-code"
+      },
+      "plugin": "ralph-loop",
+      "licenca": "Termos no repositório de origem",
+      "assinatura": "6hhfSgdoTGadtUyOEhIQlJuemTk2ihEhQGnBSNb75bKWZkrKEf7qMngoWRS6HtxLYsTRb0f4jzApMW2HGB93Dg=="
+    }
+  ]
+}

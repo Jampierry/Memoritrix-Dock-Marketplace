@@ -11,6 +11,7 @@ O Memoritrix Dock é um núcleo pequeno (dock, ilha, calendário, mídia, tarefa
 | Quero… | Vá para |
 |---|---|
 | Instalar um módulo no meu Dock | [Como usar o marketplace](docs/como-usar.md) |
+| Instalar skills e plugins públicos do Claude | [Skills e plugins do Claude](docs/skills-e-plugins-do-claude.md) |
 | Criar um módulo | [Criar um módulo](docs/criar-um-modulo.md) |
 | Publicar o meu módulo aqui | [Publicar no marketplace](docs/publicar.md) |
 | Entender por que é seguro (e onde não é) | [Catálogo e segurança](docs/catalogo-e-seguranca.md) |
@@ -19,7 +20,9 @@ O Memoritrix Dock é um núcleo pequeno (dock, ilha, calendário, mídia, tarefa
 ## O que há neste repositório
 
 ```
-marketplace.json        o catálogo que o app lê (cada entrada é assinada)
+marketplace.json        o catálogo de módulos que o app lê (cada entrada é assinada)
+claude-catalogo.json    o catálogo de skills e plugins do Claude (cada item é assinado)
+claude-catalogo.fonte.json   a fonte editável desse catálogo (o app não lê)
 pacotes/                os módulos, um .zip por versão: <id>-<versão>.zip
 exemplos/               código-fonte de módulos de exemplo
 docs/                   manuais e imagens
@@ -36,6 +39,10 @@ docs/                   manuais e imagens
 | **Olá, Dock** (`ola-dock`) | 1.0.0 | Exemplo mínimo: mostra que instalar, confirmar permissões e ativar funcionam | dados no app (`config`) |
 
 A lista que vale é a do próprio app (**Ajustes > Módulos > Disponíveis**), que já mostra a situação de cada módulo: disponível, instalado, com atualização ou incompatível com a sua versão do Dock.
+
+## Skills e plugins do Claude
+
+Um segundo catálogo, `claude-catalogo.json`, traz **17 skills** e **12 plugins** públicos do Claude, aprovados e assinados. Em **Ajustes > Skills e plugins do Claude** há um botão para instalar cada um no **Claude Code** (sua pasta `~/.claude`) ou no **projeto aberto no VS Code** (`.claude` do projeto). Detalhes em [Skills e plugins do Claude](docs/skills-e-plugins-do-claude.md).
 
 ## Como o app confia no que baixa
 

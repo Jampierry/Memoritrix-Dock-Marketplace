@@ -1,0 +1,46 @@
+{
+  "_comentario": "Fonte do catalogo de skills e plugins publicos do Claude. NAO e lida pelo app: rode scripts/assinar-catalogo-claude.mjs (no repositorio do app) para gerar o claude-catalogo.json assinado. Skills ficam fixadas num commit; plugins acompanham o marketplace deles.",
+  "skills": {
+    "repo": "anthropics/skills",
+    "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+    "licenca": "Termos no LICENSE.txt de cada skill, no repositório de origem",
+    "itens": [
+      { "id": "docx", "nome": "Documentos Word (docx)", "descricao": "Cria, lê e edita documentos Word (.docx) e modelos (.dotx): sumário, cabeçalhos, números de página, comentários e alterações rastreadas." },
+      { "id": "pdf", "nome": "PDF", "descricao": "Lê e extrai texto e tabelas de PDFs, junta, divide, gira páginas, preenche formulários, cria PDFs e faz OCR em documentos escaneados." },
+      { "id": "pptx", "nome": "Apresentações (pptx)", "descricao": "Cria e edita apresentações PowerPoint (.pptx/.potx): slides, modelos, notas do apresentador e comentários." },
+      { "id": "xlsx", "nome": "Planilhas (xlsx)", "descricao": "Abre, corrige e cria planilhas (.xlsx, .csv, .tsv): fórmulas, formatação, gráficos e limpeza de dados bagunçados." },
+      { "id": "frontend-design", "nome": "Design de interfaces", "descricao": "Orienta o Claude a criar interfaces com direção visual própria: tipografia, composição e escolhas que fogem do visual padrão de template." },
+      { "id": "skill-creator", "nome": "Criador de skills", "descricao": "Ajuda a criar, melhorar e medir o desempenho de skills, inclusive otimizar a descrição para que ela dispare na hora certa." },
+      { "id": "claude-api", "nome": "API do Claude", "descricao": "Referência da API do Claude e do SDK da Anthropic: modelos, parâmetros, streaming, ferramentas, cache e migração de modelo." },
+      { "id": "mcp-builder", "nome": "Criador de servidores MCP", "descricao": "Guia para criar servidores MCP de qualidade, que deixam o Claude usar serviços externos por meio de ferramentas bem desenhadas." },
+      { "id": "webapp-testing", "nome": "Teste de aplicativos web", "descricao": "Testa aplicativos web locais com Playwright: verifica a interface, depura comportamento e captura telas." },
+      { "id": "canvas-design", "nome": "Arte e cartazes (canvas)", "descricao": "Cria peças visuais em .png e .pdf, como cartazes e ilustrações, a partir de uma filosofia de design." },
+      { "id": "theme-factory", "nome": "Fábrica de temas", "descricao": "Aplica temas a slides, documentos, relatórios e páginas HTML, com 10 temas prontos de cores e fontes." },
+      { "id": "brand-guidelines", "nome": "Identidade visual da Anthropic", "descricao": "Aplica as cores e a tipografia oficiais da Anthropic a qualquer material." },
+      { "id": "doc-coauthoring", "nome": "Coautoria de documentos", "descricao": "Conduz um fluxo estruturado para escrever documentação, propostas, especificações técnicas e documentos de decisão." },
+      { "id": "internal-comms", "nome": "Comunicação interna", "descricao": "Ajuda a escrever comunicados internos nos formatos que a empresa costuma usar." },
+      { "id": "algorithmic-art", "nome": "Arte algorítmica", "descricao": "Cria arte com código em p5.js, com aleatoriedade controlada por semente e parâmetros interativos." },
+      { "id": "slack-gif-creator", "nome": "GIFs para Slack", "descricao": "Cria GIFs animados otimizados para o Slack, com as restrições, a validação e os conceitos de animação." },
+      { "id": "web-artifacts-builder", "nome": "Artefatos web elaborados", "descricao": "Conjunto de ferramentas para criar artefatos HTML de vários componentes, com React, Tailwind CSS e shadcn/ui." }
+    ]
+  },
+  "plugins": {
+    "repo": "anthropics/claude-code",
+    "marketplace": { "nome": "claude-code-plugins", "repo": "anthropics/claude-code" },
+    "licenca": "Termos no repositório de origem",
+    "itens": [
+      { "plugin": "code-review", "nome": "Revisão de código", "descricao": "Revisão automática de pull requests com vários agentes especializados e pontuação de confiança." },
+      { "plugin": "feature-dev", "nome": "Desenvolvimento de funcionalidades", "descricao": "Fluxo completo para desenvolver uma funcionalidade, com agentes para explorar o código, projetar e revisar." },
+      { "plugin": "commit-commands", "nome": "Comandos de commit", "descricao": "Comandos para o fluxo do git: fazer commit, enviar e abrir pull request." },
+      { "plugin": "pr-review-toolkit", "nome": "Kit de revisão de PR", "descricao": "Agentes que revisam pull requests por tema: comentários, testes, tratamento de erros e desenho de tipos." },
+      { "plugin": "security-guidance", "nome": "Orientação de segurança", "descricao": "Revisão de segurança do código gerado pelo Claude: alertas ao editar e revisão do diff ao terminar." },
+      { "plugin": "frontend-design", "nome": "Design de frontend (plugin)", "descricao": "Cria interfaces com alta qualidade de design, distintivas e prontas para produção." },
+      { "plugin": "hookify", "nome": "Hookify", "descricao": "Cria hooks personalizados para impedir comportamentos indesejados, a partir da análise da conversa." },
+      { "plugin": "plugin-dev", "nome": "Desenvolvimento de plugins", "descricao": "Kit para criar plugins do Claude Code, com skills especialistas em cada parte." },
+      { "plugin": "agent-sdk-dev", "nome": "Desenvolvimento com o Agent SDK", "descricao": "Kit para trabalhar com o Claude Agent SDK." },
+      { "plugin": "explanatory-output-style", "nome": "Estilo explicativo", "descricao": "Acrescenta explicações didáticas sobre as escolhas de implementação e os padrões do código." },
+      { "plugin": "learning-output-style", "nome": "Estilo de aprendizado", "descricao": "Modo de aprendizado interativo que pede contribuições de código nos pontos de decisão." },
+      { "plugin": "ralph-loop", "nome": "Ralph Loop", "descricao": "Laços iterativos em que o Claude trabalha na mesma tarefa até concluir." }
+    ]
+  }
+}
