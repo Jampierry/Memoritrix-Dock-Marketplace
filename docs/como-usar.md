@@ -8,6 +8,10 @@ No Memoritrix Dock, abra **Ajustes > Módulos** (o ícone de camadas na barra la
 
 ![Ajustes > Módulos](imagens/ajustes-modulos.png)
 
+A aba **Disponíveis** mostra o catálogo deste repositório:
+
+![Ajustes > Módulos > Disponíveis](imagens/ajustes-modulos-disponiveis.png)
+
 A tela tem três abas e um botão:
 
 | Aba | O que mostra |

@@ -2,6 +2,8 @@
 
 Além dos módulos do Dock, este repositório mantém um **catálogo curado de skills e plugins públicos do Claude**. No app, ele aparece em **Ajustes > Skills e plugins do Claude**, com um botão para instalar no **Claude Code** ou no **projeto aberto no VS Code**.
 
+![Ajustes > Skills e plugins do Claude](imagens/ajustes-claude.png)
+
 ## O que são
 
 | | O que é | Como o app instala |
@@ -21,6 +23,10 @@ O Claude Code do VS Code lê as duas pastas. A diferença é o alcance: a do usu
 Na primeira vez que você clica em **Instalar no VS Code**, o app pede a pasta do projeto e lembra a escolha. Troque quando quiser em **Trocar pasta…**.
 
 ## Passo a passo
+
+O filtro **Plugins** mostra só os plugins:
+
+![Filtro de plugins](imagens/ajustes-claude-plugins.png)
 
 1. Abra **Ajustes > Skills e plugins do Claude**.
 2. Procure pelo nome ou filtre por **Skills**, **Plugins** ou **Instalados**.
