@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+  <title id="t">Como o app confia num módulo do marketplace</title>
+  <desc id="d">Cinco verificações em sequência: origem, SHA-256, assinatura, confirmação do usuário e instalação.</desc>
+  <rect width="960" height="300" rx="18" fill="#10131c"/>
+  <text x="480" y="42" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="20" font-weight="700" fill="#e8ecf6">Do catálogo ao seu Dock: cinco portas, e qualquer uma pode barrar</text>
+  <g font-family="Segoe UI, system-ui, sans-serif" text-anchor="middle">
+    <g>
+      <rect x="24" y="78" width="162" height="150" rx="14" fill="#1a2030" stroke="#3b4a6b"/>
+      <circle cx="105" cy="106" r="16" fill="#4f8cff"/><text x="105" y="112" font-size="16" font-weight="700" fill="#fff">1</text>
+      <text x="105" y="146" font-size="15" font-weight="700" fill="#e8ecf6">Origem</text>
+      <text x="105" y="168" font-size="12" fill="#a9b4cc">Só este repositório</text>
+      <text x="105" y="186" font-size="12" fill="#a9b4cc">https, sem desvios</text>
+      <text x="105" y="204" font-size="12" fill="#a9b4cc">para outros sites</text>
+    </g>
+    <g>
+      <rect x="206" y="78" width="162" height="150" rx="14" fill="#1a2030" stroke="#3b4a6b"/>
+      <circle cx="287" cy="106" r="16" fill="#4f8cff"/><text x="287" y="112" font-size="16" font-weight="700" fill="#fff">2</text>
+      <text x="287" y="146" font-size="15" font-weight="700" fill="#e8ecf6">SHA-256</text>
+      <text x="287" y="168" font-size="12" fill="#a9b4cc">Conferido antes de</text>
+      <text x="287" y="186" font-size="12" fill="#a9b4cc">abrir o pacote</text>
+      <text x="287" y="204" font-size="12" fill="#a9b4cc">(arquivo íntegro)</text>
+    </g>
+    <g>
+      <rect x="388" y="78" width="162" height="150" rx="14" fill="#1a2030" stroke="#3b4a6b"/>
+      <circle cx="469" cy="106" r="16" fill="#4f8cff"/><text x="469" y="112" font-size="16" font-weight="700" fill="#fff">3</text>
+      <text x="469" y="146" font-size="15" font-weight="700" fill="#e8ecf6">Assinatura</text>
+      <text x="469" y="168" font-size="12" fill="#a9b4cc">Ed25519 do mantenedor</text>
+      <text x="469" y="186" font-size="12" fill="#a9b4cc">(chave privada fora</text>
+      <text x="469" y="204" font-size="12" fill="#a9b4cc">do repositório)</text>
+    </g>
+    <g>
+      <rect x="570" y="78" width="162" height="150" rx="14" fill="#1a2030" stroke="#3b4a6b"/>
+      <circle cx="651" cy="106" r="16" fill="#4f8cff"/><text x="651" y="112" font-size="16" font-weight="700" fill="#fff">4</text>
+      <text x="651" y="146" font-size="15" font-weight="700" fill="#e8ecf6">Seu "Sim"</text>
+      <text x="651" y="168" font-size="12" fill="#a9b4cc">Janela com o módulo</text>
+      <text x="651" y="186" font-size="12" fill="#a9b4cc">e as permissões que</text>
+      <text x="651" y="204" font-size="12" fill="#a9b4cc">ele declara</text>
+    </g>
+    <g>
+      <rect x="752" y="78" width="184" height="150" rx="14" fill="#13261d" stroke="#2f7a52"/>
+      <circle cx="844" cy="106" r="16" fill="#22c55e"/><text x="844" y="112" font-size="16" font-weight="700" fill="#fff">✓</text>
+      <text x="844" y="146" font-size="15" font-weight="700" fill="#e8ecf6">Instalado</text>
+      <text x="844" y="168" font-size="12" fill="#a9d9bd">Roda com os poderes</text>
+      <text x="844" y="186" font-size="12" fill="#a9d9bd">do app: instale só de</text>
+      <text x="844" y="204" font-size="12" fill="#a9d9bd">quem você confia</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#6f7fa6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M189 153h14m-5-5 5 5-5 5"/><path d="M371 153h14m-5-5 5 5-5 5"/><path d="M553 153h14m-5-5 5 5-5 5"/><path d="M735 153h14m-5-5 5 5-5 5"/>
+  </g>
+  <text x="480" y="266" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#a9b4cc">Se uma porta falha, o app para e mostra o motivo. Entradas ruins do catálogo são ignoradas uma a uma.</text>
+</svg>

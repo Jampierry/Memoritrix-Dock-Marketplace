@@ -1,0 +1,9 @@
+{
+  "id": "ola-dock",
+  "nome": "Olá, Dock (exemplo)",
+  "versao": "1.0.0",
+  "descricao": "Módulo de exemplo do marketplace: mostra que a instalação, a confirmação de permissões e a ativação funcionam. Não faz nada além de responder um canal de teste.",
+  "entrada": "index.cjs",
+  "permissoes": ["config"],
+  "dockMinima": "0.1.0"
+}

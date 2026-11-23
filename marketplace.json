@@ -1,0 +1,18 @@
+{
+  "modulos": [
+    {
+      "id": "ola-dock",
+      "nome": "Olá, Dock (exemplo)",
+      "descricao": "Módulo de exemplo do marketplace: mostra que a instalação, a confirmação de permissões e a ativação funcionam. Não faz nada além de responder um canal de teste.",
+      "versao": "1.0.0",
+      "pacote": "https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/pacotes/ola-dock-1.0.0.zip",
+      "sha256": "0fb9533498dc8f995f347edeb5141196fcd6c4e821865a9c850db9c4d95849ce",
+      "permissoes": [
+        "config"
+      ],
+      "dockMinima": "0.1.0",
+      "tamanho": 750,
+      "assinatura": "PGBa08SAzz9lJNeRNlMlU1ujUNtlbn05Jn0Oy1msZz5Aqt8T/L9HFeYCl0JvqSFI6oSEuI+98STE/zeQuD1kBg=="
+    }
+  ]
+}
