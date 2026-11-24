@@ -25,6 +25,9 @@ O Memoritrix Dock é um núcleo pequeno (dock, ilha, calendário, mídia, tarefa
 marketplace.json        o catálogo de módulos que o app lê (cada entrada é assinada)
 claude-catalogo.json    o catálogo de skills e plugins do Claude (cada item é assinado)
 claude-catalogo.fonte.json   a fonte editável desse catálogo (o app não lê)
+temas-catalogo.json     o catálogo de temas das docks (cada tema é assinado; só dados, sem código)
+temas-catalogo.fonte.json   a fonte editável dos temas (o app não lê)
+temas/                  imagens (PNG) dos temas de fundo, como Milk2 e Vista
 pacotes/                os módulos, um .zip por versão: <id>-<versão>.zip
 exemplos/               código-fonte de módulos de exemplo
 modulos-do-app/         fontes dos módulos que vêm no app (para leitura; não se instalam daqui)

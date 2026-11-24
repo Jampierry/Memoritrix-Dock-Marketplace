@@ -1,0 +1,30 @@
+{
+  "itens": [
+    { "id": "macos", "nome": "macOS", "grupo": "claro", "versao": "1.0.0", "desc": "Vidro fosco claro, cantos grandes e ícones arredondados, como o Dock do macOS.",
+      "tokens": { "fundo": "linear-gradient(180deg, rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.16))", "borda": "rgba(255, 255, 255, 0.42)", "desfoque": "blur(30px) saturate(1.9) brightness(1.08)", "sombra": "0 18px 44px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.55)", "raio": "20px", "texto": "#f6f8fc", "iconeRaio": "24%", "iconeSombra": "0 4px 10px rgba(0, 0, 0, 0.3)" } },
+    { "id": "mica", "nome": "Mica", "grupo": "claro", "versao": "1.0.0", "desc": "Acrílico claro e discreto, no espírito do Windows 11.",
+      "tokens": { "fundo": "rgba(243, 243, 245, 0.74)", "borda": "rgba(255, 255, 255, 0.75)", "desfoque": "blur(28px) saturate(1.4)", "sombra": "0 12px 32px rgba(0, 0, 0, 0.25)", "texto": "#1b1b1f", "mudo": "#55555e" } },
+    { "id": "papel", "nome": "Papel", "grupo": "claro", "versao": "1.0.0", "desc": "Creme quente e opaco, com borda suave.",
+      "tokens": { "fundo": "#f4ecdc", "borda": "#d8cbb0", "sombra": "0 10px 26px rgba(60, 40, 10, 0.22)", "texto": "#2b241a", "mudo": "#7a6c58" } },
+    { "id": "liquido", "nome": "Vidro líquido", "grupo": "claro", "versao": "1.0.0", "desc": "Vidro quase transparente com brilho na borda, como o Liquid Glass da Apple.",
+      "tokens": { "fundo": "linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.07))", "borda": "rgba(255, 255, 255, 0.55)", "desfoque": "blur(18px) saturate(2) brightness(1.1)", "sombra": "inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 -1px 0 rgba(255, 255, 255, 0.25), 0 14px 36px rgba(0, 0, 0, 0.28)", "iconeRaio": "26%" } },
+    { "id": "retro", "nome": "Retrô", "grupo": "claro", "versao": "1.0.0", "desc": "Cinza com relevo, lembrando o Windows 98.",
+      "tokens": { "fundo": "#c0c0c0", "borda": "#ffffff", "sombra": "inset -2px -2px 0 #404040, inset 2px 2px 0 #fff, inset -3px -3px 0 #808080", "raio": "3px", "texto": "#000000", "mudo": "#404040" } },
+    { "id": "nord", "nome": "Nord", "grupo": "escuro", "versao": "1.0.0", "desc": "Azul-acinzentado gelado da paleta Nord.",
+      "tokens": { "fundo": "rgba(46, 52, 64, 0.94)", "borda": "#4c566a", "sombra": "0 12px 30px rgba(0, 0, 0, 0.4)" } },
+    { "id": "dracula", "nome": "Drácula", "grupo": "escuro", "versao": "1.0.0", "desc": "Roxo escuro com borda lilás, da paleta Dracula.",
+      "tokens": { "fundo": "rgba(40, 42, 54, 0.95)", "borda": "#bd93f9", "sombra": "0 0 0 1px rgba(189, 147, 249, 0.35), 0 12px 30px rgba(0, 0, 0, 0.45)" } },
+    { "id": "aqua", "nome": "Aqua", "grupo": "colorido", "versao": "1.0.0", "desc": "Azul brilhante com reflexo, o visual Frutiger Aero dos anos 2000.",
+      "tokens": { "fundo": "linear-gradient(180deg, rgba(160, 220, 255, 0.78), rgba(40, 125, 225, 0.62) 55%, rgba(20, 90, 200, 0.72))", "borda": "rgba(255, 255, 255, 0.7)", "desfoque": "blur(14px) saturate(1.6)", "sombra": "0 10px 28px rgba(10, 60, 140, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.85)", "iconeRaio": "26%" } },
+    { "id": "neon", "nome": "Neon", "grupo": "colorido", "versao": "1.0.0", "desc": "Fundo escuro com borda e brilho ciano e magenta, estilo cyberpunk.",
+      "tokens": { "fundo": "rgba(8, 6, 20, 0.86)", "borda": "#22e6ff", "desfoque": "blur(10px)", "sombra": "0 0 0 1px rgba(255, 0, 200, 0.35), 0 0 18px rgba(34, 230, 255, 0.45), 0 0 34px rgba(255, 0, 200, 0.25)", "iconeSombra": "0 0 10px rgba(34, 230, 255, 0.35)" } },
+    { "id": "aurora", "nome": "Aurora", "grupo": "colorido", "versao": "1.0.0", "desc": "Degradê translúcido de violeta e verde-água.",
+      "tokens": { "fundo": "linear-gradient(135deg, rgba(120, 80, 220, 0.58), rgba(30, 190, 170, 0.5))", "borda": "rgba(255, 255, 255, 0.32)", "desfoque": "blur(24px) saturate(1.6)", "sombra": "0 14px 36px rgba(0, 0, 0, 0.35)" } },
+    { "id": "porDoSol", "nome": "Pôr do sol", "grupo": "colorido", "versao": "1.0.0", "desc": "Degradê quente de laranja e rosa, translúcido.",
+      "tokens": { "fundo": "linear-gradient(135deg, rgba(255, 140, 60, 0.62), rgba(235, 70, 130, 0.56))", "borda": "rgba(255, 255, 255, 0.38)", "desfoque": "blur(22px) saturate(1.5)", "sombra": "0 14px 36px rgba(90, 20, 40, 0.35)" } },
+    { "id": "milk2", "nome": "Milk2", "grupo": "rocketdock", "versao": "1.0.0", "desc": "Fundo claro e leitoso da coleção do RocketDock.",
+      "skin": { "fatia": 8, "arquivo": "temas/milk2.png" } },
+    { "id": "vista", "nome": "Vista", "grupo": "rocketdock", "versao": "1.0.0", "desc": "Vidro azulado no estilo do Windows Vista, da coleção do RocketDock.",
+      "skin": { "fatia": 8, "arquivo": "temas/vista.png" } }
+  ]
+}
