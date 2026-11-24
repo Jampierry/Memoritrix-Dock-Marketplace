@@ -16,6 +16,8 @@ O Memoritrix Dock é um núcleo pequeno (dock, ilha, calendário, mídia, tarefa
 | Publicar o meu módulo aqui | [Publicar no marketplace](docs/publicar.md) |
 | Entender por que é seguro (e onde não é) | [Catálogo e segurança](docs/catalogo-e-seguranca.md) |
 | Ver um módulo funcionando para copiar | [`exemplos/ola-dock`](exemplos/ola-dock) |
+| Ler o código dos módulos que vêm no app (`ia`, `painel`, `claude`) | [`modulos-do-app`](modulos-do-app) |
+| Usar o Graphify (mapa do projeto) no Claude e nos assistentes do app | [Graphify](docs/graphify.md) |
 
 ## O que há neste repositório
 
@@ -25,12 +27,17 @@ claude-catalogo.json    o catálogo de skills e plugins do Claude (cada item é 
 claude-catalogo.fonte.json   a fonte editável desse catálogo (o app não lê)
 pacotes/                os módulos, um .zip por versão: <id>-<versão>.zip
 exemplos/               código-fonte de módulos de exemplo
+modulos-do-app/         fontes dos módulos que vêm no app (para leitura; não se instalam daqui)
 docs/                   manuais e imagens
 ```
 
 - O app lê `https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/marketplace.json`.
 - Cada pacote é baixado de `pacotes/` desta mesma branch `main`.
 - Este repositório é **somente do marketplace** e precisa continuar **público**: assim o app lê sem login. O código do app fica em outro repositório.
+
+## Módulos que vêm no app
+
+O app traz três módulos próprios, cujas fontes estão em [`modulos-do-app`](modulos-do-app): **IA e Memorix**, **Painel e Sinapse** e **Skills e plugins do Claude**. Eles não se instalam por aqui (os ids são reservados), mas o código fica aberto para estudo.
 
 ## Módulos disponíveis
 

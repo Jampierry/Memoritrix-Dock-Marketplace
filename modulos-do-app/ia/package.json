@@ -1,0 +1,8 @@
+{
+  "name": "@memoritrix/modulo-ia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modulo IA da dock: fila de IAs com fallback (OmniRoute) e chat do Memorix.",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ia",
+  "nome": "IA e Memorix",
+  "versao": "0.1.0",
+  "descricao": "Fila de IAs com fallback pelo OmniRoute e chat do Memorix.",
+  "entrada": "src/index.ts",
+  "permissoes": ["config", "rede", "ia", "abrir-itens"],
+  "dockMinima": "0.1.0"
+}

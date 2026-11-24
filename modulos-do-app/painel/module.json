@@ -1,0 +1,9 @@
+{
+  "id": "painel",
+  "nome": "Painel e Sinapse",
+  "versao": "0.1.0",
+  "descricao": "Sinapse: mapa do que o computador sabe, aprendido de pastas e arquivos que você escolhe (só leitura, tudo local).",
+  "entrada": "src/index.ts",
+  "permissoes": ["config", "arquivos", "ia"],
+  "dockMinima": "0.1.0"
+}

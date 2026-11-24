@@ -1,0 +1,9 @@
+{
+  "id": "claude",
+  "nome": "Skills e plugins do Claude",
+  "versao": "0.1.0",
+  "descricao": "Catálogo curado de skills e plugins públicos do Claude, com instalação em um clique no Claude Code (usuário) ou no projeto aberto no VS Code.",
+  "entrada": "src/index.ts",
+  "permissoes": ["rede", "arquivos", "config"],
+  "dockMinima": "0.1.0"
+}
