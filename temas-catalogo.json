@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "id": "macos",
+      "nome": "macOS",
+      "grupo": "claro",
+      "desc": "Vidro fosco claro, cantos grandes e ícones arredondados, como o Dock do macOS.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "linear-gradient(180deg, rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.16))",
+        "borda": "rgba(255, 255, 255, 0.42)",
+        "desfoque": "blur(30px) saturate(1.9) brightness(1.08)",
+        "sombra": "0 18px 44px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.55)",
+        "raio": "20px",
+        "texto": "#f6f8fc",
+        "iconeRaio": "24%",
+        "iconeSombra": "0 4px 10px rgba(0, 0, 0, 0.3)"
+      },
+      "assinatura": "cHpgJb6EP3YVkd4tsP4KuoEQaXcbR5wE+nULK3Gj1nzb7d4/WZezNNGZdADe08F+DEUNtm3cq6WeLBY7P0jlAQ=="
+    },
+    {
+      "id": "mica",
+      "nome": "Mica",
+      "grupo": "claro",
+      "desc": "Acrílico claro e discreto, no espírito do Windows 11.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "rgba(243, 243, 245, 0.74)",
+        "borda": "rgba(255, 255, 255, 0.75)",
+        "desfoque": "blur(28px) saturate(1.4)",
+        "sombra": "0 12px 32px rgba(0, 0, 0, 0.25)",
+        "texto": "#1b1b1f",
+        "mudo": "#55555e"
+      },
+      "assinatura": "DQ/vJ0IbXejOWaRxn9oMh9MqggeKqn7aV4Sdg7K5v1gtv7DoPqCvh/X01+bG9Ayen51SsqXdXIzhRSijZfiJCw=="
+    },
+    {
+      "id": "papel",
+      "nome": "Papel",
+      "grupo": "claro",
+      "desc": "Creme quente e opaco, com borda suave.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "#f4ecdc",
+        "borda": "#d8cbb0",
+        "sombra": "0 10px 26px rgba(60, 40, 10, 0.22)",
+        "texto": "#2b241a",
+        "mudo": "#7a6c58"
+      },
+      "assinatura": "G2G4uAMmcKarxUPyqu8UcLKvbXfDEOCvDflsYJ6KZSjCQfRcF+NNwbpYyrkSRCfs11RJet36CnWaeI3nF71hBg=="
+    },
+    {
+      "id": "liquido",
+      "nome": "Vidro líquido",
+      "grupo": "claro",
+      "desc": "Vidro quase transparente com brilho na borda, como o Liquid Glass da Apple.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.07))",
+        "borda": "rgba(255, 255, 255, 0.55)",
+        "desfoque": "blur(18px) saturate(2) brightness(1.1)",
+        "sombra": "inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 -1px 0 rgba(255, 255, 255, 0.25), 0 14px 36px rgba(0, 0, 0, 0.28)",
+        "iconeRaio": "26%"
+      },
+      "assinatura": "IqRt2YhKQXbD4TyOokelinm967njHDN2dxzPms0a3LU/RuVJJodT1eO8GP6dsb/Ksr4HaCB4Je5ffmotFQecAg=="
+    },
+    {
+      "id": "retro",
+      "nome": "Retrô",
+      "grupo": "claro",
+      "desc": "Cinza com relevo, lembrando o Windows 98.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "#c0c0c0",
+        "borda": "#ffffff",
+        "sombra": "inset -2px -2px 0 #404040, inset 2px 2px 0 #fff, inset -3px -3px 0 #808080",
+        "raio": "3px",
+        "texto": "#000000",
+        "mudo": "#404040"
+      },
+      "assinatura": "W0h+ovLi9TSFUD4ITM+/HIE+0+bgPAtL9uwWrj1wHnwP5zG0Esje8P5x981NuvLtD03SfW8yTtnBCZWe8e8LCQ=="
+    },
+    {
+      "id": "nord",
+      "nome": "Nord",
+      "grupo": "escuro",
+      "desc": "Azul-acinzentado gelado da paleta Nord.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "rgba(46, 52, 64, 0.94)",
+        "borda": "#4c566a",
+        "sombra": "0 12px 30px rgba(0, 0, 0, 0.4)"
+      },
+      "assinatura": "Y75GfdJE2Gad36DG+yXtAcCR1xlO+DJ7zSH1nZokLcww/IDtMv7XQck1+Xkf4vkkTPdTbagesH3VDEe/gubqCQ=="
+    },
+    {
+      "id": "dracula",
+      "nome": "Drácula",
+      "grupo": "escuro",
+      "desc": "Roxo escuro com borda lilás, da paleta Dracula.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "rgba(40, 42, 54, 0.95)",
+        "borda": "#bd93f9",
+        "sombra": "0 0 0 1px rgba(189, 147, 249, 0.35), 0 12px 30px rgba(0, 0, 0, 0.45)"
+      },
+      "assinatura": "vsRMWoIv0PtCxWEWq8k3FZsbfDDHYUPlvkS8QSgMjwfBoBa1ERk7uyS+ddnUYTtu0GPpS8OA3CQKKj/RMNR4Bg=="
+    },
+    {
+      "id": "aqua",
+      "nome": "Aqua",
+      "grupo": "colorido",
+      "desc": "Azul brilhante com reflexo, o visual Frutiger Aero dos anos 2000.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "linear-gradient(180deg, rgba(160, 220, 255, 0.78), rgba(40, 125, 225, 0.62) 55%, rgba(20, 90, 200, 0.72))",
+        "borda": "rgba(255, 255, 255, 0.7)",
+        "desfoque": "blur(14px) saturate(1.6)",
+        "sombra": "0 10px 28px rgba(10, 60, 140, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.85)",
+        "iconeRaio": "26%"
+      },
+      "assinatura": "af/kgPa27HGaft979RVO8KSCrjnPvTZVAgTJs/Lbn+OeGtnmt2+Y7i+hRoyNBNeHr5t2mBbo5Nb4kVl25sDADg=="
+    },
+    {
+      "id": "neon",
+      "nome": "Neon",
+      "grupo": "colorido",
+      "desc": "Fundo escuro com borda e brilho ciano e magenta, estilo cyberpunk.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "rgba(8, 6, 20, 0.86)",
+        "borda": "#22e6ff",
+        "desfoque": "blur(10px)",
+        "sombra": "0 0 0 1px rgba(255, 0, 200, 0.35), 0 0 18px rgba(34, 230, 255, 0.45), 0 0 34px rgba(255, 0, 200, 0.25)",
+        "iconeSombra": "0 0 10px rgba(34, 230, 255, 0.35)"
+      },
+      "assinatura": "r2iD7VAI3elZ7SgGzsQSITatJL07eaR1EtObtyMOgmu1ZBnDdcpupuYpRogiNm7MF2plOm/lpNkhaUdG51Y+DQ=="
+    },
+    {
+      "id": "aurora",
+      "nome": "Aurora",
+      "grupo": "colorido",
+      "desc": "Degradê translúcido de violeta e verde-água.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "linear-gradient(135deg, rgba(120, 80, 220, 0.58), rgba(30, 190, 170, 0.5))",
+        "borda": "rgba(255, 255, 255, 0.32)",
+        "desfoque": "blur(24px) saturate(1.6)",
+        "sombra": "0 14px 36px rgba(0, 0, 0, 0.35)"
+      },
+      "assinatura": "uwBqYwKoNxqirvy/cc9IuH8/1NOcuK8siKkRQDORO956OgqDjcli51ugbAypB0AxDlsKIdv9wam95V/QmykuDg=="
+    },
+    {
+      "id": "porDoSol",
+      "nome": "Pôr do sol",
+      "grupo": "colorido",
+      "desc": "Degradê quente de laranja e rosa, translúcido.",
+      "versao": "1.0.0",
+      "tokens": {
+        "fundo": "linear-gradient(135deg, rgba(255, 140, 60, 0.62), rgba(235, 70, 130, 0.56))",
+        "borda": "rgba(255, 255, 255, 0.38)",
+        "desfoque": "blur(22px) saturate(1.5)",
+        "sombra": "0 14px 36px rgba(90, 20, 40, 0.35)"
+      },
+      "assinatura": "T/wkL9mj3TkOIt+sKsLLA8U7vrGcNjstqnbDcjA0qz6TyqYnTN1oK57py4qTxokO5dMep7GdMJJlUNJf/OBSCQ=="
+    },
+    {
+      "id": "milk2",
+      "nome": "Milk2",
+      "grupo": "rocketdock",
+      "desc": "Fundo claro e leitoso da coleção do RocketDock.",
+      "versao": "1.0.0",
+      "skin": {
+        "fatia": 8,
+        "png": "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"
+      },
+      "assinatura": "ENQauNI+arpCIu17o+9X/iHfXEuv+ASIUFXD7YpDkXlk2aw4F1FZUt7C2YkE3+I4TqWiRI1x6oK3SrPHtCxoBg=="
+    },
+    {
+      "id": "vista",
+      "nome": "Vista",
+      "grupo": "rocketdock",
+      "desc": "Vidro azulado no estilo do Windows Vista, da coleção do RocketDock.",
+      "versao": "1.0.0",
+      "skin": {
+        "fatia": 8,
+        "png": "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"
+      },
+      "assinatura": "t8f0cVSYisNmbqW2a9YszxRWl5hXhTNjZOBvCBT+TQYOBDayk9qHZcO7CeDoXIM2tF/eEly9KUPSu/cqK4mRBA=="
+    }
+  ]
+}
