@@ -1,6 +1,21 @@
 {
   "modulos": [
     {
+      "id": "gaveta",
+      "nome": "Gaveta",
+      "descricao": "Trilho fino na borda direita da tela e uma gaveta que desliza com Sinapse, Mídia, Notas e Monitor. Liga e desliga em Ajustes > Peças.",
+      "versao": "1.0.0",
+      "pacote": "https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/pacotes/gaveta-1.0.0.zip",
+      "sha256": "87b069983ecce9dcfa348d0b60b25808d4d802db8239777bc91aca30f8ed78e7",
+      "permissoes": [
+        "config",
+        "janelas"
+      ],
+      "dockMinima": "0.1.0",
+      "tamanho": 8141,
+      "assinatura": "o+dmIHCTGkl+DMzVuO7uve65dIwr34cst1eF26979ORRoX8+BKT9zscdAD7/WLciayMpMlsOexH8p5k6sPrmBg=="
+    },
+    {
       "id": "ola-dock",
       "nome": "Olá, Dock (exemplo)",
       "descricao": "Módulo de exemplo do marketplace: mostra que a instalação, a confirmação de permissões e a ativação funcionam. Não faz nada além de responder um canal de teste.",
