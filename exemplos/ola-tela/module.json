@@ -1,7 +1,7 @@
 {
   "id": "ola-tela",
   "nome": "Olá, Tela (exemplo)",
-  "versao": "1.0.0",
+  "versao": "1.0.1",
   "descricao": "Módulo de exemplo com tela: aparece no fim dos Ajustes, usa o React do app e conversa com o próprio código no processo principal.",
   "entrada": "index.cjs",
   "apiApp": 1,
