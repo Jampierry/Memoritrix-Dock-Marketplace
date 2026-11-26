@@ -1,0 +1,11 @@
+{
+  "id": "ola-tela",
+  "nome": "Olá, Tela (exemplo)",
+  "versao": "1.0.0",
+  "descricao": "Módulo de exemplo com tela: aparece no fim dos Ajustes, usa o React do app e conversa com o próprio código no processo principal.",
+  "entrada": "index.cjs",
+  "apiApp": 1,
+  "encaixes": [{ "id": "ola", "tipo": "secao-ajustes", "tela": "tela/ola.js", "rotulo": "Olá, Tela" }],
+  "permissoes": ["config"],
+  "dockMinima": "0.1.0"
+}

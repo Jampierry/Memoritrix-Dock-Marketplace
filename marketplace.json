@@ -13,6 +13,20 @@
       "dockMinima": "0.1.0",
       "tamanho": 750,
       "assinatura": "PGBa08SAzz9lJNeRNlMlU1ujUNtlbn05Jn0Oy1msZz5Aqt8T/L9HFeYCl0JvqSFI6oSEuI+98STE/zeQuD1kBg=="
+    },
+    {
+      "id": "ola-tela",
+      "nome": "Olá, Tela (exemplo)",
+      "descricao": "Módulo de exemplo com tela: aparece no fim dos Ajustes, usa o React do app e conversa com o próprio código no processo principal.",
+      "versao": "1.0.0",
+      "pacote": "https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/pacotes/ola-tela-1.0.0.zip",
+      "sha256": "ac554d0434642ab280ec1545661270c89a0703c776c8950c7811a06b7b366e59",
+      "permissoes": [
+        "config"
+      ],
+      "dockMinima": "0.1.0",
+      "tamanho": 1290,
+      "assinatura": "B1jocTMzC62Nony/Q+yDJQsBG6Qla1j0bbCJ6nagFphiNKRI5MsSDkcy91twqRFU3lJR6taIkQLNXOz/PPCrAw=="
     }
   ]
 }
