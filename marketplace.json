@@ -4,16 +4,16 @@
       "id": "gaveta",
       "nome": "Gaveta",
       "descricao": "Trilho fino na borda direita da tela e uma gaveta que desliza com Sinapse, Mídia, Notas e Monitor. Liga e desliga em Ajustes > Peças.",
-      "versao": "1.0.1",
-      "pacote": "https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/pacotes/gaveta-1.0.1.zip",
-      "sha256": "750996bd0c86e336e6894f99c9749a100439052b3edfca0dbc2c8d9542bb9457",
+      "versao": "1.0.2",
+      "pacote": "https://raw.githubusercontent.com/Jampierry/Memoritrix-Dock-Marketplace/main/pacotes/gaveta-1.0.2.zip",
+      "sha256": "e7daf128599d0f71f8be77ae687bef5705968299cc8e90b6736675e36881288d",
       "permissoes": [
         "config",
         "janelas"
       ],
       "dockMinima": "0.1.0",
-      "tamanho": 8154,
-      "assinatura": "vakNQp+NPlI+qgpkH51M9JDsSPoZiIT8xcoUzYaMXGKB7TddbVCX7g//LP10qXUkDKAWIFfDlS7cWrdecvb1AQ=="
+      "tamanho": 8219,
+      "assinatura": "L2cZmV3836kU8VKzKjKjbEwbaMTfSwYCY7zkBTwAlDaNwOg4xyMHT2FiYyktXYHRBqAlH9J/d9IVKuYQoGuZCg=="
     },
     {
       "id": "ola-dock",
